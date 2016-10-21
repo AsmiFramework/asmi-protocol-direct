@@ -1,0 +1,22 @@
+{
+  "name": "asmi-protocol-direct",
+  "version": "0.5.0",
+  "description": "Direct function call based communication protocol for all Asmi based services",
+  "main": "asmi-protocol-direct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Mahesh Kumar J",
+    "email": "mahesh@maheshj.com",
+    "url": "https://www.maheshj.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AsmiFramework/asmi-protocol-direct.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.21.0"
+  }
+}
