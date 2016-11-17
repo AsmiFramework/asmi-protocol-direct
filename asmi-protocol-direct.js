@@ -1,7 +1,8 @@
 var modCache = {};
 
-function AsmiProtocolDirect(modName) {
+function AsmiProtocolDirect(modName, outsideInterface) {
 	this.modName = modName;
+	this.initServer(outsideInterface);
 }
 
 var p = AsmiProtocolDirect.prototype;
@@ -30,6 +31,6 @@ p.initServer = function (outsideInterface) {
 	}
 };
 
-module.exports = exports = function (modName) {
-	return new AsmiProtocolDirect(modName);
+module.exports = exports = function (modName, outsideInterface) {
+	return new AsmiProtocolDirect(modName, outsideInterface);
 };
