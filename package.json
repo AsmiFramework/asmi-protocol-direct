@@ -1,6 +1,6 @@
 {
   "name": "asmi-protocol-direct",
-  "version": "0.5.1",
+  "version": "1.0.0",
   "description": "Function call based communication protocol for all Asmi based services",
   "main": "asmi-protocol-direct.js",
   "scripts": {
